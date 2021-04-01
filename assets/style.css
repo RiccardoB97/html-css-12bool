@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+
+p{
+    line-height: 200px;
+}
+
+#nested{
+    padding: 20px;
+}
+
+#nested [class*="col-"]{
+    height: 160px;
+    border: 1px solid white;
+    background-color: salmon;
+}
+
+#nested p{
+    line-height: 160px;
+}

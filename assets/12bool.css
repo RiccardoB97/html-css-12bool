@@ -20,9 +20,9 @@
 }
 
 .dbg [class*="col-"]{
-    background-color: salmon;
+    background-color: lightsalmon;
     border: 1px solid black;
-    height: 100px;
+    height: 200px;
 }
 
 [class*="col-"]{
